@@ -1,5 +1,6 @@
 body
 {
+    background: rgb(77, 80, 77);
     color: #413e40;
     text-align: center;
     font-family: "Verdana";
@@ -11,12 +12,18 @@ body
 
 #cabecera
 {
-    background: #003400;
+    background: #52ba52f3 url("../imagenes/desayuno.png") 10px 10px;
     box-shadow: 0 2px 20px 0 rgba(0,0,0,.5);
     color: #fff;
     font-weight: 700;
     margin: 0;
-    padding: .5em;
+    padding: .5em 0 0.5em 0.5em;
+}
+
+#cabecera #logo 
+{
+    width: 20px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline
@@ -39,4 +46,10 @@ body
 {
     font-size: 20px;
 
+}
+
+#post 
+{
+    background: #fff;
+    padding: 1em;
 }
